@@ -1,5 +1,17 @@
 export default [
   {
+    title: 'USA Cities',
+    data: [
+      { id: '11', name: 'Los Angeles' },
+      { id: '12', name: 'Boston' },
+      { id: '13', name: 'Austin' },
+      { id: '14', name: 'Washington' },
+      { id: '15', name: 'New York' },
+      { id: '16', name: 'Chicago' },
+      { id: '17', name: 'San Francisco' },
+    ],
+  },
+  {
     title: 'European Cities',
     data: [
       { id: '1', name: 'Bielsko-Biała' },
@@ -12,18 +24,6 @@ export default [
       { id: '8', name: 'Warsaw' },
       { id: '9', name: 'Madrid' },
       { id: '10', name: 'Vienna' },
-    ],
-  },
-  {
-    title: 'USA Cities',
-    data: [
-      { id: '11', name: 'Los Angeles' },
-      { id: '12', name: 'Boston' },
-      { id: '13', name: 'Austin' },
-      { id: '14', name: 'Washington' },
-      { id: '15', name: 'New York' },
-      { id: '16', name: 'Chicago' },
-      { id: '17', name: 'San Francisco' },
     ],
   },
 ]

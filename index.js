@@ -1,13 +1,9 @@
 import React from 'react'
-import { AppRegistry, Text, TextInput } from 'react-native'
-import { DefaultTheme, Provider as PaperProvider } from 'react-native-paper'
+import { AppRegistry } from 'react-native'
+import { Text, DefaultTheme, Provider as PaperProvider } from 'react-native-paper'
 import App from './App'
 
 Text.defaultProps = {
-  allowFontScaling: false,
-}
-
-TextInput.defaultProps = {
   allowFontScaling: false,
 }
 
@@ -16,6 +12,7 @@ const theme = {
   ...DefaultTheme,
   colors: {
     ...DefaultTheme.colors,
+    background: '#EFEFF4',
   },
 }
 
