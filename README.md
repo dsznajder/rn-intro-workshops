@@ -6,8 +6,11 @@
 * `yarn install`
 * Link `react-native-vector-icons` package with `react-native link react-native-vector-icons` command.
 
-For easier styling and development of some basic features App is using
-[react-native-paper](https://callstack.github.io/react-native-paper/).
+### TIPS:
+
+* For easier styling and development of some basic features App is using
+  [react-native-paper](https://callstack.github.io/react-native-paper/).
+* [Flexbox cheatsheet](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 
 ## Step I - Components
 
